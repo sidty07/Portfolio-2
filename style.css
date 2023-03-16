@@ -1,0 +1,885 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+/*nav bar */
+.navbar{
+  display: flex;
+  position: relative;
+  height: 93px;
+
+  border-radius: 0 0 80px 80px;
+  border-bottom: solid;
+  border-color: #ffffff26;
+   box-shadow: inset 0 0 10px #ffffff26;
+
+}
+.nav3{
+  display: flex;
+  list-style: none;
+  position: absolute;
+  right: 0%;
+  padding: 38px 100px 0px 0 ;
+    }
+
+  .nav3 li a{
+    text-decoration: none;
+    margin:30px;
+    color:black;
+    font-family:'Reenie Beanie', cursive;
+    font-weight: bolder;
+    font-size:20px;
+    transition: color 0.2s ease-out  25ms;
+
+    }
+    .nav3 li a:hover{
+      text-decoration: none;
+      margin:30px;
+      color: Gray;
+      font-family:'Reenie Beanie', cursive ;
+
+      }
+.sb {
+display: none;
+padding: 20px;
+position: absolute;
+list-style: none;
+
+text-decoration: none;
+font-size: 15px;
+background-color: #FFFFFF30;
+border-radius: 20px;
+border: 2px solid #fffffF80;
+z-index: 5;
+}
+.nav3 li a:hover +.sb, .nav3 li .sb:hover{
+  visibility: visible;
+  opacity: 1;
+  display: block;}
+.nav3 li a .sb li a{
+  display: block;
+}
+.logo{
+      padding: 22px 0px 17px 100px;
+      position: absolute;
+      }
+
+
+.logo img{
+  width: 77px;
+  height: 44px;
+}
+/*nav bar*/
+
+/*herobox*/
+.herobox{
+  position: relative;
+  display: flex;
+}
+.lefthero{
+  margin: 6px 0px 0px 0px;
+  height:647px;
+  width: 60%;
+  line-height: 65px;
+
+  position: relative;
+}
+.righthero{
+  margin:6px 0px 0px 0px;
+  height:647px;
+  width: 40%;
+  position: absolute;
+  right: 0%;
+  position: relative;
+}
+/*lefthero hero */
+.arrow{
+  margin-left:140px;
+}
+.arrowhero{
+  width:20%;
+  position: absolute;
+top:45%;
+  right:12%;
+}
+ .lefthero h1{
+   font-size: 48px;
+   color:black;
+   font-family:'Reenie Beanie', cursive;
+   font-weight: normal;
+   position: absolute;
+   left: 0%;
+   text-align: right;
+   margin-left:10%;
+ }
+.fashion{
+
+  font-size: 24px;
+  letter-spacing: 12px;
+animation:  mymove 2s infinite;
+}
+
+@keyframes mymove {
+  0% {color: Black; }
+  50% {color: black;font-weight: bolder;}
+  100% {color: Black;}
+  }
+
+.knowmore{
+  position: absolute;
+  right: 0;
+  top:110%;
+  padding: 2px 50px;
+  border-radius: 38px;
+  border: 2px solid Black;
+  background-color: white;
+  font-size: 32px;
+  color: black;
+  text-decoration: none;
+
+}
+
+.knowmore:hover{
+  position: absolute;
+  right: 0;
+  top:110%;
+  padding: 2px 50px;
+  border-radius: 38px;
+  border: 2px solid #FFFFFF;
+  background-color:black;
+  font-size: 32px;
+  color: white;
+  text-decoration: none;
+  transition: background-color 0.2s ease-out  50ms;
+
+}
+
+/*lefthero hero*/
+
+/* righthero hero*/
+.righthero img{
+
+position: absolute;
+right:10%;
+top:10px;
+}
+/*righthero hero */
+
+/* spearrow */
+.spearrow img{
+  margin-left: 50%;
+  margin-bottom:5%;
+}
+/* spearrow */
+
+
+/* Protfolio*/
+
+.topmid h2{
+text-align: center;
+font-family:'Reenie Beanie', cursive;
+font-size:60px;
+font-weight: normal;
+}
+.hep{
+  margin-top:6px;
+  margin-bottom: 40px;
+  height:647px;
+  width: 100%;
+ background-image: url('portfolio web\border mid@4x 1.jpg');
+  background-repeat: no-repeat;
+    background-position: center;
+  display: flex;
+  position: relative;
+
+}
+.bor{
+  width:80%;
+  height: 600px;
+margin-bottom: 60px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+}
+.hep a{
+  background-color: black;
+  height:40px;
+  font-weight: bolder;
+  font-size: 36px;
+  padding: 30px 80px;
+  border-radius: 70px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-family:'Reenie Beanie', cursive;
+  position:absolute;
+  left: 50%;
+  top: 35%;
+  transform: translate(-50%);
+
+}
+    .hep a:hover{
+      background-color: white;
+      color: black;
+      font-weight: bolder;
+border: 2px solid black;
+  transition: background-color 0.2s ease-out  50ms;
+    }
+/*portfolio*/
+
+
+/*contact*/
+.contact1{
+  height: 502px;
+  background-color: black;
+  display: flex;
+  position: relative;
+}
+.allc{
+  width:50%;
+  height:502px;
+
+  text-align:right;
+  position: relative;
+}
+.movecontact{
+  position: absolute;
+   right: 0%;
+  margin-right: 203px ;
+  margin-top: 185px;
+  line-height: 40px;
+}
+
+.movecontact p{
+  font-family:'Reenie Beanie', cursive;
+  color: white;
+  font-size: 20px;
+  letter-spacing:2px;
+}
+
+.downloadcv{
+border: 2px solid white;
+  padding:15px 30px 15px 30px ;
+  border-radius:16px;
+  text-decoration:none;
+  font-family:'Reenie Beanie', cursive;
+  font-size: 20px;
+  letter-spacing: 4px;
+
+  color: white;
+  transition: background-color 0.5s ease-out  50ms;
+}
+
+.downloadcv:hover{
+  background-color: white;
+  padding:15px 30px 15px 30px ;
+  border-radius:16px;
+  text-decoration:none;
+font-family:'Reenie Beanie', cursive;
+  color: black;
+}
+
+.line{
+
+  width:8px;
+  height:384px;
+  background-color: #FFFFFF0;
+  position: absolute;
+  top:59px;
+  left:50%;
+  border-radius:4px;
+}
+
+.sendmessage{
+  width:50%;
+  height:502px;
+  position: relative;
+}
+
+.sem{
+border: 2px solid white;
+  padding:30px 60px 30px 60px ;
+  border-radius:46px;
+  text-decoration:none;
+  font-family:'Reenie Beanie', cursive;
+  font-size:24px;
+  color: white;
+  position: absolute;
+
+  margin-top: 220px;
+  margin-left:203px;
+  transition: background-color 0.5s ease-out  50ms;
+
+}
+
+.sem:hover{
+  background-color:white;
+  padding:30px 60px 30px 60px ;
+  border-radius:46px;
+  text-decoration:none;
+font-family:'Reenie Beanie', cursive;
+  font-size:24px;
+  color: black;
+  position: absolute;
+
+  margin-top: 220px;
+  margin-left:203px;
+}
+/*contact*/
+
+/*about box*/
+.cvbox{
+  margin:6px 0px;
+  border-radius:100px;
+  background-color: #ffffff15;
+  border:3px solid #ffffff25;
+}
+/* objective box */
+.objective{
+  margin-top:6px;
+  height:647px;
+
+  text-align: center;
+color: black;
+  font-family:'Reenie Beanie', cursive;
+}
+.parac{
+  margin: 27px 25%;
+  text-align: center;
+    font-family:cursive;
+  font-size:20px;
+  color: black;
+  }
+.objective h2{
+  margin-top:62px;
+  font-size: 40px;
+  margin-left: 35%;
+  margin-right: 35%;
+  padding:10px 0px;
+  border-radius:38.5px;
+   box-shadow: inset 0 0 10px #ffffff26;
+   border: 2px solid black;
+}
+.objective h1{
+  font-size:96px;
+padding-top: 75px;
+}
+.sid{
+  height:365;
+  margin-top:75px;
+}
+/*objective box*/
+
+/* skills  */
+.sw{
+  height: 647px;
+  margin-top: 6px;
+  display: flex;
+  justify-content: center;
+}
+.skills{
+  width:592px;
+  height:615px;
+border: 2px solid black;
+  margin-right:26.5px;
+  border-radius: 52px;
+  text-align: center;
+  color: black;
+}
+.skills h2{
+  margin: 48px 30% 0px 30%;
+  font-size:40px;
+    font-family:'Reenie Beanie', cursive;
+    font-weight: bolder;
+  border: 2px solid black;
+   border-radius: 38px;
+   padding: 2px 0px;
+
+}
+
+.skills table{
+  margin:auto;
+  margin-top: 48px;
+  line-height: 30px;
+}
+
+.skills table tr td ul{
+  list-style: none;
+    font-family: cursive;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 0px 20px;
+}
+/* skills */
+/* work */
+.work{
+  width:592px;
+  height:615px;
+  border: 2px solid black;  margin-left: 26.5px;
+  border-radius: 52px;
+  text-align: center;
+font-family:'Reenie Beanie', cursive;
+color: black;
+}
+.work h2{
+  margin: 48px 15% 0px 15%;
+  font-size: 40px;
+   box-shadow: inset 0 0 10px #ffffff26;
+  border: 2px solid black;
+  border-radius: 38px;
+  padding: 2px 0px;
+}
+.work ul{
+  list-style: none;
+  font-weight: bold;
+  font-family:cursive;
+  font-size: 20px;
+    margin-top: 48px;
+    line-height: 25px;
+}
+.work u{
+  font-weight:lighter;
+}
+.work ul ul{
+  margin-top: 0px;
+  font-weight:lighter;
+  font-size: 16px;
+}
+/* work */
+
+/* eli */
+.eli{
+  height:647px;
+
+  margin-top: 6px;
+  display: flex;
+  justify-content: center;
+  font-family:'Reenie Beanie', cursive;
+}
+
+/* education */
+.education{
+  height:456px;
+  width:388.64px;
+  border: 2px solid black;
+  border-radius: 52px;
+  margin-right: 35px;
+  text-align: center;
+  color: black;
+}
+.education h2{
+  font-size: 40px;
+  margin-top: 50px;
+
+  border: 2px solid black;
+  border-radius: 38px;
+  padding: 2px 0px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.education ul{
+  list-style: none;
+  margin-top: 40px;
+  font-family: cursive;
+}
+.education ul h3{
+  list-style: none;
+  font-size: 20px;
+  margin-top: 40px;
+}
+.education ul p{
+  font-size:16px;
+}
+/* education */
+
+
+/* interest */
+.interest{
+  height:456px;
+  width:388.64px;
+    border: 2px solid black;
+  border-radius: 52px;
+  text-align: center;
+  color: black;
+}
+.interest h2{
+  font-size: 40px;
+  margin-top: 50px;
+
+  border: 2px solid black;
+  border-radius: 38px;
+  padding: 2px 0px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.interest ul{
+  list-style: none;
+  margin-top: 40px;
+  font-family: cursive;
+  }
+  .interest ul h3{
+    font-size: 20px;
+    line-height: 30px;
+  }
+/* interest */
+
+/* eli */
+/* co aa */
+.caa{
+  margin-top:6px;
+  height:647px;
+  display: flex;
+  justify-content: center;
+  font-family:'Reenie Beanie', cursive;
+}
+
+/* co */
+.co{
+  width: 592px;
+  height:412px;
+border: 2px solid black;
+  border-radius: 52px;
+  text-align: center;
+  color: black;
+  margin-right:60px;
+  margin-top:140px;
+}
+.co h2{
+  font-size: 40px;
+  margin-top: 50px;
+
+  border: 2px solid black;
+  border-radius: 38px;
+  padding: 2px 0px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.co ul{
+  list-style: none;
+  margin-top: 40px;
+    font-family: cursive;
+}
+
+/* co */
+/* aa */
+.aa{
+  width: 592px;
+  height:412px;
+border: 2px solid black;
+  border-radius: 52px;
+  text-align: center;
+  color: black;
+  margin-top:140px;
+}
+
+.aa h2{
+  font-size: 32px;
+  margin-top: 50px;
+  border: 2px solid black;
+  border-radius: 38px;
+  padding: 2px 0px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.aa ul{
+  list-style: none;
+  margin-top: 40px;
+  font-family:cursive;
+}
+/* aa */
+/* co aa */
+/* portfolio */
+.project{
+  display: flex;
+}
+.proimg{
+  width: 30%;
+  height:300px;
+  background-color: grey;
+  margin-left:100px;
+}
+.proinfo{
+  width: 70%;
+  height:300px;
+border: 2px solid black;
+  margin-right:100px;
+
+}
+.proinfo h1{
+  font-family:'Reenie Beanie', cursive;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.proinfo p{
+  font-family: cursive;
+  margin: 20px 20px 100px 20px;
+}
+.proinfo a{
+margin-left: 80%;
+background-color: black;
+text-decoration: none;
+color: white;
+padding: 10px;
+border-radius: 20px;
+
+}
+/* portfolio */
+/* pall */
+.fp{
+  text-align: center;
+  font-family:'Reenie Beanie', cursive;
+  font-weight: lighter;
+  font-size: 64px;
+  margin:70px;
+  color: black;
+
+}
+.pall{
+  display: flex;
+  justify-content: center;
+}
+.pall h2{
+  text-decoration: none;
+  font-family: sans-serif;
+  color:white;
+  backdrop-filter: blur(0px);
+  background-color: #0000000;
+  padding:321px 215px 111px 51px;
+  font-size:0px;
+  position: absolute;
+  z-index: 5;
+
+
+}
+.pall p{
+  color: white;
+  text-decoration: none;
+  font-family: sans-serif;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: #00000025;
+  padding: 4px;
+  border-radius: 10px;
+  backdrop-filter:blur(5px);
+z-index: 5;
+}
+.p1{
+  width:399px;
+  height: 528.36px;
+  background-color: red;
+  margin:0px 11px 20px 11px;
+  background-color:#ffffff25;
+  color: white;
+  border: 2px solid #FFFFFF30;
+  position: relative;
+
+
+}
+.pall h2:hover{
+
+  text-decoration: none;
+  font-family: sans-serif;
+  color: white;
+  backdrop-filter: blur(10px);
+  background-color: #00000075;
+  padding:321px 170px 111px 51px;
+  font-size:42px;
+  position: absolute;
+  z-index: 5;
+
+}
+.p1 img{
+  width:378px;
+  margin: 10px;
+
+}
+.pall2{
+  display: flex;
+  justify-content: center;
+
+}
+.p2{
+  width:399px;
+  height: 528.36px;
+  background-color: red;
+  margin:0px 11px 166px 11px;
+  background-color:#ffffff25;
+  color: white;
+  border: 2px solid #FFFFFF30;
+  position: relative;
+
+}
+.p2 img{
+  width:378px;
+  margin: 10px;
+}
+
+.pall2 h2{
+  text-decoration: none;
+  font-family: sans-serif;
+  color:white;
+  backdrop-filter: blur(0px);
+
+  padding:321px 348px 207px 51px;
+  font-size:0px;
+  clip: auto;
+  position: absolute;
+  z-index: 5;
+}
+.p2 div{
+  width:399px;
+  height: 528.26px;
+  background-color: #0000000;
+  backdrop-filter:blur(0px);
+  position: absolute;
+}
+.pall2 +.p2 div, .p2 div:hover{
+  width:399px;
+  height: 528.26px;
+  background-color: #00000075;
+  backdrop-filter:blur(10px);
+  position: absolute;
+}
+.pall2 h2:hover{
+
+    text-decoration: none;
+    font-family: sans-serif;
+    color: white;
+
+    padding:321px 50px 50px 51px;
+    font-size:42px;
+    position: absolute;
+    z-index: 5;
+}
+
+.p2 p{
+  color: white;
+  text-decoration: none;
+  font-family: sans-serif;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: #00000025;
+  padding: 4px;
+  border-radius: 10px;
+    backdrop-filter:blur(5px);
+z-index: 5;
+}
+/* pall */
+/* send message */
+.form{
+  font-family: sans-serif;
+  color: white;
+  height:820px;
+  text-align: left;
+
+}
+
+.form form{
+justify-content:center;
+margin:50px 450px;
+line-height: 100px;
+align-items: center;
+}
+.form input{
+
+  border-radius: 20px;
+  height: 30px;
+  width: 580px;
+  padding: 5px 5px;
+  background-color: #fffffF80;
+  border: 2px solid white;
+  backdrop-filter: blur(10px);
+  color: white;
+  font-family: sans-serif;
+}
+.form textarea{
+    width: 580px;
+  border-radius: 20px;
+  padding: 20px;
+  background-color: #fffffF80;
+  border: 2px solid white;
+  backdrop-filter: blur(10px);
+  color: white;
+  font-family: sans-serif;
+
+}
+#my-form-button{
+  background-color: #531d6c;
+  padding: 20px 100px;
+  border-radius: 30px;
+  color: white;
+  border: 2px solid white;
+margin: 0px 180px;
+    transition: background-color 0.5s ease-out  50ms;
+    cursor: pointer;
+}
+#my-form-button:hover{
+    background-color: white;
+    color: black;
+}
+
+#my-form-status{
+text-align: center;
+background-color: #ffffff25;
+border-radius: 10px;
+}
+/* send message */
+@media (max-width:1300px) {
+.righthero img{
+  width: 400px;
+  margin-top: 20%;
+}
+.fashionpo{
+  width:180px;
+}
+.otherpo{
+  width:180px;
+  font-size:10px;
+}
+
+.otherpo h3{
+  padding-right: 18px;
+  padding-left: 24px;
+  padding-top: 0px;
+}
+.fashionpo h3{
+  padding-right: 18px;
+  padding-left: 18px;
+  padding-top: 0px;
+}
+.otherpo img{
+  width: 150px;
+}
+.fashionpo img{
+  width: 120px;
+  margin-left: 30px;
+}
+.pall{
+display: block;
+margin: auto;
+}
+.pall2{
+  display: block;
+}
+.p1{
+  margin: auto;
+  margin-bottom: 20px;
+}
+.p2{
+
+margin: auto;
+margin-bottom: 20px;
+}
+.form form{
+margin:100px 20%;
+line-height: 50px;
+align-items: center;
+position: absolute;
+top:5%;
+}
+}
