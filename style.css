@@ -258,7 +258,9 @@ border: 2px solid black;
   font-size: 20px;
   letter-spacing:2px;
 }
-
+.movecontact img{
+  margin: 0px 30px;
+}
 .downloadcv{
 border: 2px solid white;
   padding:15px 30px 15px 30px ;
