@@ -772,44 +772,48 @@ z-index: 5;
 /* pall */
 /* send message */
 .form{
-  font-family: sans-serif;
-  color: white;
+    font-family:'Reenie Beanie', cursive;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
   height:820px;
   text-align: left;
 
 }
 
 .form form{
-justify-content:center;
-margin:50px 450px;
-line-height: 100px;
-align-items: center;
+position: absolute;
+left: 50%;
+top:20%;
+transform: translate(-50%);
+line-height: 60px;
 }
 .form input{
 
   border-radius: 20px;
   height: 30px;
   width: 580px;
-  padding: 5px 5px;
+  padding:0px 20px;
   background-color: #fffffF80;
-  border: 2px solid white;
+  border: 2px solid black;
   backdrop-filter: blur(10px);
-  color: white;
-  font-family: sans-serif;
+  color: black;
+    font-family:cursive;
 }
 .form textarea{
     width: 580px;
   border-radius: 20px;
   padding: 20px;
   background-color: #fffffF80;
-  border: 2px solid white;
+  border: 2px solid black;
   backdrop-filter: blur(10px);
-  color: white;
-  font-family: sans-serif;
+  color: black;
+  font-family:cursive;
+
 
 }
 #my-form-button{
-  background-color: #531d6c;
+  background-color: black;
   padding: 20px 100px;
   border-radius: 30px;
   color: white;
@@ -875,11 +879,5 @@ margin: auto;
 margin: auto;
 margin-bottom: 20px;
 }
-.form form{
-margin:100px 20%;
-line-height: 50px;
-align-items: center;
-position: absolute;
-top:5%;
-}
+
 }
