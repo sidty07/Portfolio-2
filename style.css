@@ -883,3 +883,36 @@ margin-bottom: 20px;
 }
 
 }
+@media (max-width:1110px) {
+  .proimg{
+    width: 30%;
+    height:200px;
+
+    margin-left:100px;
+  }
+  .proinfo{
+    width: 70%;
+    height:200px;
+  border: 2px solid black;
+    margin-right:100px;
+
+  }
+  .proinfo h1{
+    font-family:'Reenie Beanie', cursive;
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+  .proinfo p{
+    font-family: cursive;
+    margin: 20px 20px 100px 20px;
+  }
+  .proinfo a{
+  margin-left: 60%;
+  background-color: black;
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  border-radius: 20px;
+
+  }
+}
