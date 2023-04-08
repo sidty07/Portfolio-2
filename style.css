@@ -350,7 +350,7 @@ color: black;
 .parac{
   margin: 27px 25%;
   text-align: center;
-    font-family:cursive;
+    font-family:sans-serif;
   font-size:20px;
   color: black;
   }
@@ -436,7 +436,7 @@ color: black;
 .work ul{
   list-style: none;
   font-weight: bold;
-  font-family:cursive;
+  font-family:sans-serif;
   font-size: 20px;
     margin-top: 48px;
     line-height: 25px;
@@ -484,7 +484,7 @@ color: black;
 .education ul{
   list-style: none;
   margin-top: 40px;
-  font-family: cursive;
+  font-family: sans-serif;
 }
 .education ul h3{
   list-style: none;
@@ -520,7 +520,7 @@ color: black;
 .interest ul{
   list-style: none;
   margin-top: 40px;
-  font-family: cursive;
+  font-family: sans-serif;
   }
   .interest ul h3{
     font-size: 20px;
@@ -562,7 +562,7 @@ border: 2px solid black;
 .co ul{
   list-style: none;
   margin-top: 40px;
-    font-family: cursive;
+    font-family: sans-serif;
 }
 
 /* co */
@@ -803,7 +803,7 @@ line-height: 60px;
   border: 2px solid black;
   backdrop-filter: blur(10px);
   color: black;
-    font-family:cursive;
+    font-family:sans-serif;
 }
 .form textarea{
     width: 580px;
@@ -813,7 +813,7 @@ line-height: 60px;
   border: 2px solid black;
   backdrop-filter: blur(10px);
   color: black;
-  font-family:cursive;
+  font-family:sans-serif;
 
 
 }
@@ -909,7 +909,7 @@ margin-bottom: 20px;
     margin-left: 20px;
   }
   .proinfo p{
-    font-family: cursive;
+    font-family: sans-serif;
     margin: 20px 20px 50px 20px;
   }
   .proinfo a{
