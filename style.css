@@ -409,7 +409,7 @@ border: 2px solid black;
 
 .skills table tr td ul{
   list-style: none;
-    font-family: cursive;
+    font-family: sans-serif;
   font-size: 20px;
   font-weight: bold;
   padding: 0px 20px;
@@ -589,7 +589,7 @@ border: 2px solid black;
 .aa ul{
   list-style: none;
   margin-top: 40px;
-  font-family:cursive;
+  font-family:sans-serif;
 }
 /* aa */
 /* co aa */
