@@ -261,6 +261,7 @@ border: 2px solid black;
 .movecontact img{
   margin: 0px 25px;
 }
+
 .downloadcv{
 border: 2px solid white;
   padding:15px 30px 15px 30px ;
@@ -350,7 +351,7 @@ color: black;
 .parac{
   margin: 27px 25%;
   text-align: center;
-    font-family:sans-serif;
+    font-family: sans-serif;
   font-size:20px;
   color: black;
   }
@@ -385,7 +386,7 @@ padding-top: 75px;
   width:592px;
   height:615px;
 border: 2px solid black;
-  margin-right:26.5px;
+
   border-radius: 52px;
   text-align: center;
   color: black;
@@ -409,17 +410,21 @@ border: 2px solid black;
 
 .skills table tr td ul{
   list-style: none;
-    font-family: sans-serif;
+    font-family: cursive;
   font-size: 20px;
   font-weight: bold;
   padding: 0px 20px;
 }
 /* skills */
 /* work */
+.workexprience_main{
+  display: flex;
+  justify-content: center;
+}
 .work{
   width:592px;
-  height:615px;
-  border: 2px solid black;  margin-left: 26.5px;
+  height: 700px;
+  border: 2px solid black;
   border-radius: 52px;
   text-align: center;
 font-family:'Reenie Beanie', cursive;
@@ -436,7 +441,7 @@ color: black;
 .work ul{
   list-style: none;
   font-weight: bold;
-  font-family:sans-serif;
+  font-family:cursive;
   font-size: 20px;
     margin-top: 48px;
     line-height: 25px;
@@ -453,7 +458,7 @@ color: black;
 
 /* eli */
 .eli{
-  height:647px;
+  height:494px;
 
   margin-top: 6px;
   display: flex;
@@ -484,7 +489,7 @@ color: black;
 .education ul{
   list-style: none;
   margin-top: 40px;
-  font-family: sans-serif;
+  font-family: cursive;
 }
 .education ul h3{
   list-style: none;
@@ -520,7 +525,7 @@ color: black;
 .interest ul{
   list-style: none;
   margin-top: 40px;
-  font-family: sans-serif;
+  font-family: cursive;
   }
   .interest ul h3{
     font-size: 20px;
@@ -532,7 +537,7 @@ color: black;
 /* co aa */
 .caa{
   margin-top:6px;
-  height:647px;
+  height:600px;
   display: flex;
   justify-content: center;
   font-family:'Reenie Beanie', cursive;
@@ -541,13 +546,13 @@ color: black;
 /* co */
 .co{
   width: 592px;
-  height:412px;
+  height:450px;
 border: 2px solid black;
   border-radius: 52px;
   text-align: center;
   color: black;
   margin-right:60px;
-  margin-top:140px;
+  margin-top:30px;
 }
 .co h2{
   font-size: 40px;
@@ -562,7 +567,7 @@ border: 2px solid black;
 .co ul{
   list-style: none;
   margin-top: 40px;
-    font-family: sans-serif;
+    font-family: cursive;
 }
 
 /* co */
@@ -574,7 +579,7 @@ border: 2px solid black;
   border-radius: 52px;
   text-align: center;
   color: black;
-  margin-top:140px;
+  margin-top:30px;
 }
 
 .aa h2{
@@ -589,7 +594,7 @@ border: 2px solid black;
 .aa ul{
   list-style: none;
   margin-top: 40px;
-  font-family:sans-serif;
+  font-family:cursive;
 }
 /* aa */
 /* co aa */
@@ -600,13 +605,13 @@ border: 2px solid black;
 .proimg{
   width: 30%;
   height:300px;
-  background-color: grey;
+
   margin-left:100px;
 }
 .proinfo{
   width: 70%;
   height:300px;
-border: 2px solid black;
+
   margin-right:100px;
 
 }
@@ -628,9 +633,9 @@ padding: 10px;
 border-radius: 20px;
 
 }
-  #banaras{
-      margin: 20px 20px 110px 20px;
-  }
+#banaras{
+    margin: 20px 20px 110px 20px;
+}
 /* portfolio */
 /* pall */
 .fp{
@@ -803,7 +808,7 @@ line-height: 60px;
   border: 2px solid black;
   backdrop-filter: blur(10px);
   color: black;
-    font-family:sans-serif;
+    font-family:cursive;
 }
 .form textarea{
     width: 580px;
@@ -813,7 +818,7 @@ line-height: 60px;
   border: 2px solid black;
   backdrop-filter: blur(10px);
   color: black;
-  font-family:sans-serif;
+  font-family:cursive;
 
 
 }
@@ -886,7 +891,8 @@ margin-bottom: 20px;
 }
 
 }
-@media (max-width:1110px) {
+
+@media (max-width:1100px) {
   .proimg{
     width: 30%;
     height:200px;
@@ -909,7 +915,7 @@ margin-bottom: 20px;
     margin-left: 20px;
   }
   .proinfo p{
-    font-family: sans-serif;
+    font-family: cursive;
     margin: 20px 20px 50px 20px;
   }
   .proinfo a{
@@ -921,8 +927,7 @@ margin-bottom: 20px;
   border-radius: 20px;
 
   }
-    #banaras{
+  #banaras{
       margin: 20px 20px 10px 20px;
   }
 }
-
